@@ -1,0 +1,480 @@
+html {
+    font-size: 62.5%;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body {
+    margin: 0px auto;
+    padding: 0px auto;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.product-button {
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+
+.product-button button {
+    padding: 12px 80px 12px 80px;
+    color: #e89f71;
+    border: 1px solid #e89f71;
+    font-size: 1.6rem;
+    background-color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    transition: .2s;
+}
+
+.product-button button:hover {
+    cursor: pointer;
+    background-color: #e89f71;
+    color: white;
+}
+
+h2 {
+    color: #3a3a3a;
+    font-size: 4rem;
+}
+
+nav {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: #f9f1e6;
+}
+
+.nav-header {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.nav input {
+    padding-left: 45px !important;
+}
+
+.logo {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2.4rem;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.menu-el {
+    margin-left: 40px;
+    font-weight: 400;
+    color: #3a3a3a;
+    padding: 0px;
+}
+
+.menu-el span {
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    padding-top: 0px;
+}
+
+.search input {
+    height: 45px;
+    border: 0px;
+    background: url(../images/search.png) no-repeat 15px center;
+    padding-left: 40px;
+    color: #616161;
+    background-color: white;
+    width: 423px;
+}
+
+.user {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.user .favourite {
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+.user .cart {
+    margin-right: 32px;
+}
+
+section {
+    background-color: #f9f1e6;
+    padding-top: 40px;
+    margin-bottom: 88px;
+}
+
+.swiper-container {
+    width: 934px;
+    height: 553px;
+    margin: 0px auto;
+    background-color: #f9f1e6;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  /* Center slide text vertically */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.swiper-container, .card {
+    grid-area: 1/1;
+}
+
+.swiper-wrapper {
+    background-color: #f9f1e6;
+}
+
+.card {
+    position: relative;
+    width: 494px;
+    height: 553px;
+    z-index: 10;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card h1 {
+    font-size: 4rem;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.card span {
+    font-size: 1.4rem;
+    color: #616161;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.5rem;
+}
+
+.card button {
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 74px;
+    width: 374px;
+    margin: 0 auto;
+    background-color: #e89f71;
+    color: white;
+    border: 0px;
+    margin-top: 56px;
+}
+
+.card button:hover {
+    cursor: pointer;
+    background-color: rgba(232, 159, 113, 0.9);
+    transition: ease-in-out;
+}
+
+.banner {
+    z-index: 1;
+    height: 623px;
+    display: grid;
+    margin: 0px auto;
+}
+
+.products h2 {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.feature {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1240px;
+}
+
+.feature-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.card-article {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.card-icon {
+    padding: 22px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #616161;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 26px 26px;
+    grid-template-areas: ". . . ." ". . . .";
+}
+
+.visible {
+    opacity: 1;
+    height: auto;
+}
+
+.product-card {
+    background-color: #f4f5f7;
+    width: 285px;
+    z-index: 1;
+    overflow: hidden;
+    max-height: 485px;
+}
+
+.product-card .product-info {
+    position: relative;
+    top: 50%;
+    right: 50%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    height: 50px;
+    z-index: 10;
+}
+
+.product-card img {
+    width: 285px;
+    height: 301px;
+}
+
+.product-card .product-title {
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-card .product-description {
+    font-size: 1.6rem;
+    font-weight: medium;
+    color: #616161;
+    margin-left: 16px;
+}
+
+.product-card .product-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+
+.product-card .product-price span {
+    padding-right: 10px;
+}
+
+.product-card .old-price {
+    font-size: 1.6rem;
+    color: #b0b0b0;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.price-item .old-price {
+    display: inline-block;
+}
+
+.main-button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.section-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+button {
+    background-color: #e89f71;
+    color: white;
+}
+
+.article {
+    width: 380px;
+    margin: 0px;
+}
+
+.article-info {
+    width: 380px;
+    margin: 0px;
+}
+
+.article-info .article-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.title-text {
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #616161;
+    line-height: 1.5;
+}
+
+.gallery {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto !important;
+    max-width: 1240px;
+    overflow: hidden;
+}
+
+.gallery img {
+    margin: 16px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.gallery-text {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.gallery-text .gallery-text-header {
+    color: #616161;
+    font-size: 2rem;
+}
+
+.gallery-section::after {
+    content: '';
+    border: 10px solid #616161;
+}
+
+.footer-nav {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar span {
+    font-size: 2.4rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 17px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #616161;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.navbar a li span {
+    font-size: 1.6rem;
+}
+
+.navbar li {
+    margin-bottom: 16px;
+}
+
+.navbar .material-icons {
+    margin-bottom: 0px;
+}
+
+.navbar input {
+    border: none;
+    background-color: #f4f5f7;
+    height: 45px;
+    padding: 0;
+    padding-left: 5px;
+    margin-right: 4px;
+}
+
+.navbar button {
+    border: none;
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar button:hover {
+    cursor: pointer;
+    background-color: rgba(232, 159, 113, 0.7);
+}
+
+.email {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
