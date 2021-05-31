@@ -1,0 +1,2 @@
+# nurlybekmurat.github.io
+www
