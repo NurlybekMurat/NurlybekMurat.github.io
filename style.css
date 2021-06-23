@@ -94,8 +94,8 @@ button:hover {
     background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.7) 50%), url(./images/mainbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 767px;
+    background-position:top 10% center;
+    height: 700px;
 }
 
 .banner__block {
@@ -791,11 +791,19 @@ input {
 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1660px) {
     .banner {
-        height: 767px;
+        height: 900px;
     }
 }
+
+
+@media (min-width: 1200px) {
+    .banner {
+        height: 720px;
+    }
+}
+
 
 @media (max-width: 1200px) {
     .container {
@@ -804,7 +812,10 @@ input {
     .magazine__cards-item > img{
         width: 90%;
     }
-
+    .nav__links ul{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 
     .kino__text span{
         font-size: 14px;
@@ -843,6 +854,9 @@ input {
     }
     .banner__title p {
         font-size: 78px;
+    }
+    .kino__cards-item:nth-child(4) {
+        display: none;
     }
 }
 
@@ -924,6 +938,10 @@ input {
     .companies__card-item span {
         font-size: 24px;
     }
+    .magazine__cards {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 }
 
 @media (max-width: 830px) {
@@ -968,7 +986,7 @@ input {
     font-weight: 700;
     outline: none;
     transition: 0.5 s;
-    padding-right: 25px;
+    padding-right: 5px;
   }
   
   #nav-btn:hover {
@@ -1015,6 +1033,18 @@ input {
     margin: 0px auto;
   }
 
+.menu__logo {
+    margin-left: auto;
+    margin-right: -50px;
+}
+.menu__button {
+    display: flex;
+    flex-grow: 1;
+}
+.close-button {
+    margin-left: auto;
+    padding-right: 20px;
+}
 .menu__lang {
     display: flex;
     justify-content: center;
@@ -1188,7 +1218,6 @@ input {
     }
     .akcia__bot-button button {
         font-size: 12px;
-        width: 268px;
     }
     .magazine__button {
         display: flex;
@@ -1254,8 +1283,9 @@ input {
     .parent {
         grid-template-columns: repeat(4, 105px);
         grid-template-rows: repeat(3, 65px);
-        grid-column-gap: 0px;
+        grid-column-gap: 10px;
         grid-row-gap: 10px;
+        justify-content: center;
     }
     .companies__card-item span {
         font-size: 10px;
@@ -1284,7 +1314,7 @@ input {
     }
     .banner__subtitle {
         padding-left: 60px;
-        padding-right: 60px;
+        padding-right: 30px;
     }
     .top-nav {
         margin-top: 20px;
@@ -1299,8 +1329,11 @@ input {
         display: flex;
         justify-content: flex-start;
     }
-    .magazine__bot-button {
-        
+    .akcia__rss {
+        display: none;
+    }
+    .akcia__cards-item {
+        margin-bottom: 0px;
     }
 }   
 
@@ -1312,6 +1345,14 @@ input {
     }
 }
 
+@media (max-width: 360px) {
+    .banner {
+        height: 520px;
+    }
+    .banner__block {
+        padding-top: 180px;
+    }
+}
 
 
 .swiper-container {
