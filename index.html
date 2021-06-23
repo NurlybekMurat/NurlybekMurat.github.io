@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4d9dd5731a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="top-nav">
+                <div class="top-nav__links">
+                    <ul>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">как доехать ?</a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__loc">закупики</a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-nav__logo">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div class="top-nav__links top-nav__links_right">
+                    <ul>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">ru</a>
+                        </li>
+                        <li>
+                            <a href="#">kz</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="res-menu">
+                    <button id="nav-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="top-nav__logo top-nav__logo_menu">
+                                <img src="./images/logo.png" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <ul>
+                            <li class="menu__lang">
+                                <a href="#" class="top-nav__links_accent">ru</a><a href="#">kz</a>
+                            </li>
+                        </ul>
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">Магазины</a>
+                        </li>
+                        <li>
+                            <a href="#">развлечения</a>
+                        </li>
+                        <li>
+                            <a href="#">услуги</a>
+                        </li>
+                        <li>
+                            <a href="#">фудкорт</a>
+                        </li>
+                        <li>
+                            <a href="#">каркара сити</a>
+                        </li>
+                        <li>
+                            <a href="#">студент</a>
+                        </li>
+                        <li>
+                            <a href="#">atakent mall</a>
+                        </li>
+                        <li>
+                            <a href="#">карта трц</a>
+                        </li>
+                        <li class="menu__lang"> 
+                            <a href="#" class="top-nav__links_accent">как доехать ?</a><a href="#" class="top-nav__loc">закупики</a>
+                        </li>
+                        <li class="menu__lang">
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="top-nav__links_accent">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <button id="closeBtn" class="close-button">
+                                <i class="fas fa-times"></i>
+                              </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav__links">
+                    <ul class="nav__menu">
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#" class="top-nav__links_accent">Магазины</a>
+                        </li>
+                        <li>
+                            <a href="#">развлечения</a>
+                        </li>
+                        <li>
+                            <a href="#">услуги</a>
+                        </li>
+                        <li>
+                            <a href="#">фудкорт</a>
+                        </li>
+                        <li>
+                            <a href="#">каркара сити</a>
+                        </li>
+                        <li>
+                            <a href="#">студент</a>
+                        </li>
+                        <li>
+                            <a href="#">atakent mall</a>
+                        </li>
+                        <li>
+                            <a href="#">карта трц</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="container">
+            <div class="banner__block">
+                <div class="banner__title">
+                    <p><span class="top-nav__links_accent">shop</span>ping</p>
+                </div>
+                <div class="banner__subtitle">
+                    <p>Atakent Mall — самый эксклюзивный торговый центр и развлекательный центр. в районе, который известен своими  высококлассными магазинами и ресторанами</p>
+                
+                </div>
+                <div class="banner__button">
+                    <button>
+                        Перейти
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="companies">
+        <div class="container">
+            <div class="companies__card parent">
+                <div class="companies__card-item">
+                    <img src="./images/kp.png" alt="">
+                </div>
+                <div class="companies__card-item">
+                    <img src="./images/logo-2.png" alt="">
+                </div>
+                <div class="companies__card-item">
+                    <img src="./images/graviti-11.png" alt="">
+                </div>
+                <div class="companies__card-item">
+                    <span class="top-nav__links_accent">
+                        Карта
+                    </span>
+                </div>
+                <div class="companies__card-item">
+                    <span>
+                        SHOPPING
+                    </span>
+                </div>
+                <div class="companies__card-item">
+                    <span>
+                        развлечения
+                    </span>
+                </div>
+                <div class="companies__card-item">
+                    <span class="top-nav__links_accent">
+                        наши объекты
+                    </span>
+                </div>
+                <div class="companies__card-item">
+                    <span class="companies__card-item_accent">
+                        кафетерий
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="container">
+            <div class="cards__header">
+                <span>
+                    МЫ БОЛЬШЕ ЧЕМ ТОРГОВЫЙ ЦЕНТР!
+                </span>
+            </div>
+            <div class="cards__wrapper">
+                <div class="swiper-container cardsSlider">
+                    <div class="swiper-wrapper">
+                        <div class="cards__item swiper-slide">
+                            <img src="./images/card1.png" alt="">
+                            <div class="cards__title">
+                                <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                            </div>
+                            <div class="cards__subtitle">
+                                <span>
+                                    AtakentMall — это прекрасное место
+                                    для встречи с друзьями и веселого
+                                    провождения времени
+                                </span>
+                            </div>
+                            <div class="cards__button">
+                                <button>
+                                    Перейти
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cards__item swiper-slide">
+                            <img src="./images/card2.png" alt="">
+                            <div class="cards__title">
+                                <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                            </div>
+                            <div class="cards__subtitle">
+                                <span>
+                                    AtakentMall — это прекрасное место
+                                    для встречи с друзьями и веселого
+                                    провождения времени
+                                </span>
+                            </div>
+                            <div class="cards__button">
+                                <button>
+                                    Перейти
+                                </button>
+                            </div>
+                        </div>
+                        <div class="cards__item swiper-slide">
+                            <img src="./images/card3.png" alt="">
+                            <div class="cards__title">
+                                <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                            </div>
+                            <div class="cards__subtitle">
+                                <span>
+                                    Атакент Mall рад всем, кто любит шопинг.
+                                    На трех этажах ТРЦ 
+                                    расположились более 2000 товаров
+                                </span>
+                            </div>
+                            <div class="cards__button">
+                                <button>
+                                    Перейти
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="akcia">
+        <div class="container">
+            <div class="akcia__header">
+                <span>АКЦИИ И СОБЫТИЯ</span>
+            </div>
+            <div class="akcia__button">
+                <button>Все</button>
+                <button class="akcia__button_active">Акции</button>
+            </div>
+            <div class="akcia__cards">
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="akcia__cards-item swiper-slide">
+                            <div class="akcia__img">
+                                <img src="./images/akcia1.png" alt="">
+                            </div>
+                            <div class="cards__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                            <div class="cards__text_akcia">
+                                <span>Программа скидок</span> <p>-90%</p>
+                            </div>
+                        </div>
+                        <div class="akcia__cards-item swiper-slide">
+                            <div class="akcia__img">
+                                <img src="./images/akcia2.png" alt="">
+                            </div>
+                            <div class="cards__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                            <div class="cards__text_akcia">
+                                <span>Программа скидок</span>
+                            </div>
+                        </div>
+                        <div class="akcia__cards-item swiper-slide">
+                            <div class="akcia__img">
+                                <img src="./images/akcia3.png" alt="">
+                            </div>
+                            <div class="cards__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                            <div class="cards__text_akcia">
+                                <span>Программа скидок</span> 
+                            </div>
+                        </div>
+                        <div class="akcia__cards-item swiper-slide">
+                            <div class="akcia__img">
+                                <img src="./images/akcia4.png" alt="">
+                            </div>
+                            <div class="cards__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                            <div class="cards__text_akcia">
+                                <span>Программа скидок</span> <p>-70%</p>
+                            </div>
+                        </div>
+                        <div class="akcia__cards-item swiper-slide">
+                            <div class="akcia__img">
+                                <img src="./images/akcia4.png" alt="">
+                            </div>
+                            <div class="cards__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                            <div class="cards__text_akcia">
+                                <span>Программа скидок</span> <p>-70%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="akcia__bot">
+                <div class="akcia__bot-button">
+                    <button>Смотреть все события</button>
+                </div>
+                <div class="akcia__rss">
+                    <span>Подпишитесь на рассылку *</span>
+                    <button>Отправить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="magazine">
+        <div class="container">
+            <div class="magazine__header">
+                <span>МАГАЗИНЫ И УСЛУГИ</span>
+            </div>
+            <div class="magazine__button">
+                <button>Магазины</button>
+                <button class="magazine__button_active">Развлечения</button>
+                <button class="magazine__button_active">Фудкорт</button>
+                <button class="magazine__button_active">Услуги</button>
+            </div>
+            <div class="magazine__cards">
+                <div class="swiper-container magazineSlider">
+                    <div class="swiper-wrapper">
+                        <div class="magazine__cards-item swiper-slide">
+                            <div class="magazine__img">
+                                <img src="./images/magazine1.jpg" alt="">
+                            </div>
+                            <div class="magazine__logo">
+                                <img src="./images/mi-logotype.png" alt="">
+                            </div>
+                            <div class="magazine__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                        </div>
+                        <div class="magazine__cards-item swiper-slide">
+                            <div class="magazine__img">
+                                <img src="./images/magazine2.jpg" alt="">
+                            </div>
+                            <div class="magazine__logo">
+                                <img src="./images/flo-logo.png" alt="">
+                            </div>
+                            <div class="magazine__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                        </div>
+                        <div class="magazine__cards-item swiper-slide">
+                            <div class="magazine__img">
+                                <img src="./images/magazine3.jpg" alt="">
+                            </div>
+                            <div class="magazine__logo">
+                                <img src="./images/kari.png" alt="">
+                            </div>
+                            <div class="magazine__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                        </div>
+                        <div class="magazine__cards-item swiper-slide">
+                            <div class="magazine__img">
+                                <img src="./images/magazine4.jpg" alt="">
+                            </div>
+                            <div class="magazine__logo">
+                                <img src="./images/graviti-lgo.png" alt="">
+                            </div>
+                            <div class="magazine__text">
+                                <span>ГОРЯЧИЕ РАСПРОДАЖИ: СКИДКИ ДО</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <div class="magazine__bot">
+                <div class="magazine__bot-button">
+                    <button>Смотреть все Магазины</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="kino">
+        <div class="container">
+            <div class="kino__header">
+                <span>КИНОТЕАТР kinopark</span>
+                <img src="./images/kp.png" alt="">
+            </div>
+            <div class="kino__cards">
+                <div class="kino__cards-item">
+                    <div class="kino__img">
+                        <img src="./images/kino.jpg" alt="">
+                    </div>
+                    <div class="kino__text">
+                        <span>Райя и последний дракон</span>
+                    </div>
+                    <div class="kino__button">
+                        <button>Смотреть расписание</button>
+                    </div>
+                </div>
+                <div class="kino__cards-item">
+                    <div class="kino__img">
+                        <img src="./images/kino.jpg" alt="">
+                    </div>
+                    <div class="kino__text">
+                        <span>Райя и последний дракон</span>
+                    </div>
+                    <div class="kino__button">
+                        <button>Смотреть расписание</button>
+                    </div>
+                </div>
+                <div class="kino__cards-item">
+                    <div class="kino__img">
+                        <img src="./images/kino.jpg" alt="">
+                    </div>
+                    <div class="kino__text">
+                        <span>Райя и последний дракон</span>
+                    </div>
+                    <div class="kino__button">
+                        <button>Смотреть расписание</button>
+                    </div>
+                </div>
+                <div class="kino__cards-item">
+                    <div class="kino__img">
+                        <img src="./images/kino.jpg" alt="">
+                    </div>
+                    <div class="kino__text">
+                        <span>Райя и последний дракон</span>
+                    </div>
+                    <div class="kino__button">
+                        <button>Смотреть расписание</button>
+                    </div>
+                </div>
+            </div>
+            <div class="kino__bot">
+                <div class="kino__bot-button">
+                    <button>Смотреть все события</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__header">
+                <span>Оставить заявку</span>
+                <p>Для получения более подробной информации оствьте заявку и мы свяжемся с вами)</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="form__wrapper">
+                        <div class="footer__items">
+                            <div class="footer__input">
+                                <i class="fas fa-user"></i><input type="text" placeholder="Ф.И.О">
+                            </div>
+                            <div class="footer__input">
+                                <i class="fas fa-envelope"></i><input type="email" placeholder="Email">
+                            </div>
+                            <div class="footer__input">
+                                <i class="fas fa-phone-alt"></i><input type="text" placeholder="Номер Телефона">
+                            </div>
+                        </div>
+                        
+                        <div class="footer__button">
+                            <button class="footer__button">Отправить</button>
+                        </div>  
+                    </div>
+ 
+                </form>
+            </div>
+            <div class="footer__bottom">
+                <span>Copyright © 2020-2021 ATAKENT</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>  
+</body>
+</html>
