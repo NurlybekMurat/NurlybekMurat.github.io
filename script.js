@@ -5,12 +5,25 @@ const closeBtn = document.querySelector("#closeBtn");
 navBtn.addEventListener("click", function () {
   navBtn.classList.toggle("close");
   overlay.classList.toggle("overlay");
+  disableScrolling()
 });
 
 closeBtn.addEventListener("click", () => {
   navBtn.classList.remove("close");
   overlay.classList.remove("overlay");
+  enableScrolling()
 });
+
+function disableScrolling(){
+  var x=window.scrollX;
+  var y=window.scrollY;
+  window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+  window.onscroll=function(){};
+}
+
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
