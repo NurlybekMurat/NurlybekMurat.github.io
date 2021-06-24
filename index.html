@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav class="nav">
         <div class="container">
             <div class="top-nav">
                 <div class="top-nav__links">
@@ -69,7 +69,7 @@
                     <ul>
                         <li class="menu__button">
                             <a href="#" class="menu__logo">
-                                <div class="top-nav__logo top-nav__logo_menu">
+                                <div class="top-nav__logo top-nav__logo_menu top-nav__logo_res">
                                 <img src="./images/logo.png" alt="">
                                 </div>
                             </a>
@@ -78,35 +78,35 @@
                               </button>
                         </li>
                             <li class="menu__lang">
-                                <a href="#" class="top-nav__links_accent">ru</a><a href="#">kz</a>
+                                <a href="#" class="top-nav__links_accent"><img src="./images/icons/ru.gif" alt=""> ru</a><a href="#"><img src="./images/icons/kz.gif" alt=""> kz</a>
                             </li>
-                        <li>
-                            <a href="#">Главная</a>
-                        </li>
-                        <li>
-                            <a href="#" class="top-nav__links_accent">Магазины</a>
-                        </li>
-                        <li>
-                            <a href="#">развлечения</a>
-                        </li>
-                        <li>
-                            <a href="#">услуги</a>
-                        </li>
-                        <li>
-                            <a href="#">фудкорт</a>
-                        </li>
-                        <li>
-                            <a href="#">каркара сити</a>
-                        </li>
-                        <li>
-                            <a href="#">студент</a>
-                        </li>
-                        <li>
-                            <a href="#">atakent mall</a>
-                        </li>
-                        <li>
-                            <a href="#">карта трц</a>
-                        </li>
+                            <li>
+                                <a href="#">ӘКК КАРТАСЫ</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="top-nav__links_accent">БАСТЫ БЕТ</a>
+                            </li>
+                            <li>
+                                <a href="shop-list.html">ДҮКЕНДЕР</a>
+                            </li>
+                            <li>
+                                <a href="#">Көңіл көтеру</a>
+                            </li>
+                            <li>
+                                <a href="#">ҚЫЗМЕТТЕР</a>
+                            </li>
+                            <li>
+                                <a href="#">ФУДКОРТ</a>
+                            </li>
+                            <li>
+                                <a href="#">ҚАРҚАРА ҚАЛАСЫ</a>
+                            </li>
+                            <li>
+                                <a href="#">СТУДЕНТ</a>
+                            </li>
+                            <li>
+                                <a href="#">ATAKENT MALL</a>
+                            </li>
                         <li class="menu__lang"> 
                             <a href="#" class="top-nav__links_accent">как доехать ?</a><a href="#" class="top-nav__loc">закупики</a>
                         </li>
@@ -131,31 +131,31 @@
                 <div class="nav__links">
                     <ul class="nav__menu">
                         <li>
-                            <a href="#">Главная</a>
+                            <a href="#">ӘКК КАРТАСЫ</a>
                         </li>
                         <li>
-                            <a href="#" class="top-nav__links_accent">Магазины</a>
+                            <a href="index.html" class="top-nav__links_accent">БАСТЫ БЕТ</a>
                         </li>
                         <li>
-                            <a href="#">развлечения</a>
+                            <a href="shop-list.html">ДҮКЕНДЕР</a>
                         </li>
                         <li>
-                            <a href="#">услуги</a>
+                            <a href="#">Көңіл көтеру</a>
                         </li>
                         <li>
-                            <a href="#">фудкорт</a>
+                            <a href="#">ҚЫЗМЕТТЕР</a>
                         </li>
                         <li>
-                            <a href="#">каркара сити</a>
+                            <a href="#">ФУДКОРТ</a>
                         </li>
                         <li>
-                            <a href="#">студент</a>
+                            <a href="#">ҚАРҚАРА ҚАЛАСЫ</a>
                         </li>
                         <li>
-                            <a href="#">atakent mall</a>
+                            <a href="#">СТУДЕНТ</a>
                         </li>
                         <li>
-                            <a href="#">карта трц</a>
+                            <a href="#">ATAKENT MALL</a>
                         </li>
                     </ul>
                 </div>
@@ -232,57 +232,72 @@
                 <div class="swiper-container cardsSlider">
                     <div class="swiper-wrapper">
                         <div class="cards__item swiper-slide">
-                            <img src="./images/card1.png" alt="">
-                            <div class="cards__title">
-                                <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
-                            </div>
-                            <div class="cards__subtitle">
-                                <span>
-                                    AtakentMall — это прекрасное место
-                                    для встречи с друзьями и веселого
-                                    провождения времени
-                                </span>
-                            </div>
-                            <div class="cards__button">
-                                <button>
-                                    Перейти
-                                </button>
-                            </div>
-                        </div>
-                        <div class="cards__item swiper-slide">
-                            <img src="./images/card2.png" alt="">
-                            <div class="cards__title">
-                                <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
-                            </div>
-                            <div class="cards__subtitle">
-                                <span>
-                                    AtakentMall — это прекрасное место
-                                    для встречи с друзьями и веселого
-                                    провождения времени
-                                </span>
-                            </div>
-                            <div class="cards__button">
-                                <button>
-                                    Перейти
-                                </button>
+                            <div class="cards__item-wrapper">
+                                <img src="./images/card3.png" alt="">
+                                <div class="cards__title">
+                                    <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                                </div>
+                                <div class="cards__wrapper">
+                                    <div class="cards__subtitle">
+                                        <span>
+                                            AtakentMall — это прекрасное место
+                                            для встречи с друзьями и веселого
+                                            провождения времени
+                                        </span>
+                                    </div>
+                                    <div class="cards__button">
+                                        <button>
+                                            Перейти
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="cards__item swiper-slide">
-                            <img src="./images/card3.png" alt="">
-                            <div class="cards__title">
-                                <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                            <div class="cards__item-wrapper">
+                                <img src="./images/card3.png" alt="">
+                                <div class="cards__title">
+                                    <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                                </div>
+                                <div class="cards__wrapper">
+                                    <div class="cards__subtitle">
+                                        <span class="cards__subtitle-span">
+                                            AtakentMall — это прекрасное место
+                                            для встречи с друзьями и веселого
+                                            провождения времени
+                                            AtakentMall — это прекрасное место
+                                            для встречи с друзьями и веселого
+                                            провождения времени
+                                        </span>
+                                    </div>
+                                    <div class="cards__button">
+                                        <button>
+                                            Перейти
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="cards__subtitle">
-                                <span>
-                                    Атакент Mall рад всем, кто любит шопинг.
-                                    На трех этажах ТРЦ 
-                                    расположились более 2000 товаров
-                                </span>
-                            </div>
-                            <div class="cards__button">
-                                <button>
-                                    Перейти
-                                </button>
+                        </div>
+                        <div class="cards__item swiper-slide">
+                            <div class="cards__item-wrapper">
+                                <img src="./images/card3.png" alt="">
+                                <div class="cards__title">
+                                    <span>ЗОНА РАЗВЛЕЧЕНИЯ</span>
+                                </div>
+                                <div class="cards__wrapper">
+                                    <div class="cards__subtitle">
+                                        <span>
+                                            AtakentMall — это прекрасное место
+                                            для встречи с друзьями и веселого
+                                            провождения времени
+                                        </span>
+                                    </div>
+                                    <div class="cards__button">
+                                        <button>
+                                            Перейти
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
